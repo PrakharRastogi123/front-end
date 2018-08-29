@@ -1,0 +1,15 @@
+img{
+	width:30%;
+	margin:1.66%;
+	float: left;
+}
+h3{
+	font-family: 'Jua', sans-serif;
+	margin-left: 1.66%;
+	font-weight: 800;
+	font-size: 23px;
+	width:30%;
+	border-bottom:2px solid #f1f1f1;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}

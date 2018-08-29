@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+<label>First Name:<input type="text" name="first-name" placeholder="John" required ></input></label>
+<label>Last Name:<input type="text" name="last-name" placeholder="Smith" required></input></label>
+<br>
+<label>Male <input type="radio" name="radio-choice" value="choice-1" ></input></label>
+<label>Female <input type="radio" name="radio-choice" value="choice-2" ></input></label>
+<label>Other <input type="radio" name="radio-choice" value="choice-3" ></input></label>
+<br>
+<label>Email:<input type="Email" name="Email" placeholder="Email" required ></input></label>
+<label>Password<input type="Password" pattern=".{5,10}" name="Password" placeholder="Password" required title="5 to 10 characters"></input></label>
+<br>
+<label>Birthday:<select name="select-choice">
+	<option value="0" selected disabled >Month</option>
+	<option value="January">Jan</option>
+	<option value="Febuary">Feb</option>
+	<option value="March">Mar</option>
+	<option value="April">Apr</option>
+</select> 
+<select name="bday-day">
+	<option value="0" selected disabled >Day</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+</select>
+<select name="bday-year">
+	<option value="0" selected disabled >Year</option>
+	<option value="1999">1999</option>
+	<option value="2000">2000</option>
+	<option value="2001">2001</option>
+	<option value="2002">2002</option>
+</select>
+</label>
+<br>
+<label>I agree to the terms and conditions <input type="checkbox" name="checkbox" value="On" required></input></label>
+<br>
+<button>Submit</button>
+</form>
+</body>
+</html>
